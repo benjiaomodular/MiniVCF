@@ -1,0 +1,570 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+12V #PWR?
+U 1 1 61FC4B78
+P 4475 3375
+AR Path="/61FC4B78" Ref="#PWR?"  Part="1" 
+AR Path="/61FA9972/61FC4B78" Ref="#PWR023"  Part="1" 
+AR Path="/61F51CE9/61FC4B78" Ref="#PWR0113"  Part="1" 
+AR Path="/61EBA3CC/61FC4B78" Ref="#PWR0101"  Part="1" 
+AR Path="/61EE9725/61FC4B78" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 4475 3225 50  0001 C CNN
+F 1 "+12V" H 4490 3548 50  0000 C CNN
+F 2 "" H 4475 3375 50  0001 C CNN
+F 3 "" H 4475 3375 50  0001 C CNN
+	1    4475 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 61FC4B7E
+P 4475 4450
+AR Path="/61FC4B7E" Ref="#PWR?"  Part="1" 
+AR Path="/61FA9972/61FC4B7E" Ref="#PWR024"  Part="1" 
+AR Path="/61F51CE9/61FC4B7E" Ref="#PWR0114"  Part="1" 
+AR Path="/61EBA3CC/61FC4B7E" Ref="#PWR0103"  Part="1" 
+AR Path="/61EE9725/61FC4B7E" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 4475 4550 50  0001 C CNN
+F 1 "-12V" H 4490 4623 50  0000 C CNN
+F 2 "" H 4475 4450 50  0001 C CNN
+F 3 "" H 4475 4450 50  0001 C CNN
+	1    4475 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 61FC4B84
+P 3950 3900
+AR Path="/61FC4B84" Ref="J?"  Part="1" 
+AR Path="/61FA9972/61FC4B84" Ref="J7"  Part="1" 
+AR Path="/61F51CE9/61FC4B84" Ref="J5"  Part="1" 
+AR Path="/61EBA3CC/61FC4B84" Ref="J3"  Part="1" 
+AR Path="/61EE9725/61FC4B84" Ref="J1"  Part="1" 
+F 0 "J1" H 4075 4400 50  0000 R CNN
+F 1 "JST_BUS" H 4200 4275 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 3950 3900 50  0001 C CNN
+F 3 "~" H 3950 3900 50  0001 C CNN
+	1    3950 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5225 3525 5225 3625
+Wire Wire Line
+	5225 3725 5225 3825
+Wire Wire Line
+	5225 4325 5225 4375
+$Comp
+L Device:CP1 C?
+U 1 1 61FC4B97
+P 4475 4150
+AR Path="/61FC4B97" Ref="C?"  Part="1" 
+AR Path="/61FA9972/61FC4B97" Ref="C5"  Part="1" 
+AR Path="/61F51CE9/61FC4B97" Ref="C2"  Part="1" 
+AR Path="/61EBA3CC/61FC4B97" Ref="C5"  Part="1" 
+AR Path="/61EE9725/61FC4B97" Ref="C9"  Part="1" 
+F 0 "C9" H 4590 4196 50  0000 L CNN
+F 1 "100uF" H 4590 4105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4475 4150 50  0001 C CNN
+F 3 "~" H 4475 4150 50  0001 C CNN
+	1    4475 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61FC4B9D
+P 4475 3675
+AR Path="/61FC4B9D" Ref="C?"  Part="1" 
+AR Path="/61FA9972/61FC4B9D" Ref="C4"  Part="1" 
+AR Path="/61F51CE9/61FC4B9D" Ref="C1"  Part="1" 
+AR Path="/61EBA3CC/61FC4B9D" Ref="C4"  Part="1" 
+AR Path="/61EE9725/61FC4B9D" Ref="C8"  Part="1" 
+F 0 "C8" H 4590 3721 50  0000 L CNN
+F 1 "100uF" H 4590 3630 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4475 3675 50  0001 C CNN
+F 3 "~" H 4475 3675 50  0001 C CNN
+	1    4475 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3900 4475 3900
+Connection ~ 4475 3900
+Wire Wire Line
+	4475 3825 4475 3900
+Wire Wire Line
+	4475 3900 4475 4000
+Wire Wire Line
+	4475 3375 4475 3400
+Wire Wire Line
+	4150 3800 4300 3800
+Wire Wire Line
+	4300 3800 4300 3450
+Wire Wire Line
+	4300 3450 4475 3450
+Connection ~ 4475 3450
+Wire Wire Line
+	4475 3450 4475 3525
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 61FC4BAD
+P 4475 4425
+AR Path="/61FC4BAD" Ref="#FLG?"  Part="1" 
+AR Path="/61FA9972/61FC4BAD" Ref="#FLG02"  Part="1" 
+AR Path="/61F51CE9/61FC4BAD" Ref="#FLG0101"  Part="1" 
+AR Path="/61EBA3CC/61FC4BAD" Ref="#FLG0101"  Part="1" 
+AR Path="/61EE9725/61FC4BAD" Ref="#FLG02"  Part="1" 
+F 0 "#FLG02" H 4475 4500 50  0001 C CNN
+F 1 "PWR_FLAG" V 4475 4553 50  0001 L CNN
+F 2 "" H 4475 4425 50  0001 C CNN
+F 3 "~" H 4475 4425 50  0001 C CNN
+	1    4475 4425
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 61FC4BB3
+P 4475 3400
+AR Path="/61FC4BB3" Ref="#FLG?"  Part="1" 
+AR Path="/61FA9972/61FC4BB3" Ref="#FLG01"  Part="1" 
+AR Path="/61F51CE9/61FC4BB3" Ref="#FLG0102"  Part="1" 
+AR Path="/61EBA3CC/61FC4BB3" Ref="#FLG0102"  Part="1" 
+AR Path="/61EE9725/61FC4BB3" Ref="#FLG01"  Part="1" 
+F 0 "#FLG01" H 4475 3475 50  0001 C CNN
+F 1 "PWR_FLAG" V 4475 3527 50  0001 L CNN
+F 2 "" H 4475 3400 50  0001 C CNN
+F 3 "~" H 4475 3400 50  0001 C CNN
+	1    4475 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 4000 4300 4000
+Wire Wire Line
+	4300 4000 4300 4375
+Wire Wire Line
+	4300 4375 4475 4375
+Wire Wire Line
+	4475 4300 4475 4375
+Wire Wire Line
+	4475 4375 4475 4425
+Connection ~ 4475 4375
+Wire Wire Line
+	4475 3900 4950 3900
+Wire Wire Line
+	4950 3900 4950 3975
+Wire Wire Line
+	4475 4375 5225 4375
+Connection ~ 5225 4375
+Wire Wire Line
+	5225 4375 5225 4425
+Connection ~ 5225 3825
+Wire Wire Line
+	4950 3450 4950 3525
+Wire Wire Line
+	4950 3525 5225 3525
+Connection ~ 4475 4425
+Wire Wire Line
+	4475 4425 4475 4450
+Connection ~ 4475 3400
+Wire Wire Line
+	4475 3400 4475 3450
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 61FC4BDF
+P 4950 3975
+AR Path="/61FC4BDF" Ref="#FLG?"  Part="1" 
+AR Path="/61FA9972/61FC4BDF" Ref="#FLG03"  Part="1" 
+AR Path="/61F51CE9/61FC4BDF" Ref="#FLG0103"  Part="1" 
+AR Path="/61EBA3CC/61FC4BDF" Ref="#FLG0103"  Part="1" 
+AR Path="/61EE9725/61FC4BDF" Ref="#FLG03"  Part="1" 
+F 0 "#FLG03" H 4950 4050 50  0001 C CNN
+F 1 "PWR_FLAG" V 4950 4102 50  0001 L CNN
+F 2 "" H 4950 3975 50  0001 C CNN
+F 3 "~" H 4950 3975 50  0001 C CNN
+	1    4950 3975
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4950 3975
+Wire Wire Line
+	4950 3975 4950 4050
+$Comp
+L power:GND2 #PWR016
+U 1 1 61C8D9E7
+P 4950 4050
+F 0 "#PWR016" H 4950 3800 50  0001 C CNN
+F 1 "GND2" H 4955 3877 50  0000 C CNN
+F 2 "" H 4950 4050 50  0001 C CNN
+F 3 "" H 4950 4050 50  0001 C CNN
+	1    4950 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 3450 4950 3450
+$Comp
+L Connector:Conn_01x10_Male J2
+U 1 1 61D8C754
+P 5425 4025
+F 0 "J2" H 5397 3907 50  0000 R CNN
+F 1 "IDC_BUS" H 5397 3998 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 5425 4025 50  0001 C CNN
+F 3 "~" H 5425 4025 50  0001 C CNN
+	1    5425 4025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5225 3825 5225 3925
+Connection ~ 5225 3525
+Wire Wire Line
+	5225 3925 5225 4025
+Connection ~ 5225 3925
+Connection ~ 5225 4025
+Wire Wire Line
+	5225 4025 5225 4125
+Connection ~ 5225 4125
+Wire Wire Line
+	5225 4125 5225 4225
+Wire Wire Line
+	4950 3900 5100 3900
+Wire Wire Line
+	5100 3900 5100 3925
+Wire Wire Line
+	5100 3925 5225 3925
+Connection ~ 4950 3900
+Wire Wire Line
+	7400 3775 7100 3775
+Wire Wire Line
+	7400 3825 7400 3775
+Wire Wire Line
+	7100 3775 7100 3850
+$Comp
+L power:GND2 #PWR?
+U 1 1 61ECD60F
+P 7400 3825
+AR Path="/61ECD60F" Ref="#PWR?"  Part="1" 
+AR Path="/61EBA3CC/61ECD60F" Ref="#PWR0107"  Part="1" 
+AR Path="/61EE9725/61ECD60F" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 7400 3575 50  0001 C CNN
+F 1 "GND2" H 7525 3700 50  0000 C CNN
+F 2 "" H 7400 3825 50  0001 C CNN
+F 3 "" H 7400 3825 50  0001 C CNN
+	1    7400 3825
+	1    0    0    -1  
+$EndComp
+Connection ~ 7100 3775
+Wire Wire Line
+	7100 3700 7100 3775
+Wire Wire Line
+	6750 3375 6750 3475
+Wire Wire Line
+	7100 3375 6750 3375
+Wire Wire Line
+	7100 3400 7100 3375
+$Comp
+L Device:C C?
+U 1 1 61ECD5F2
+P 7100 3550
+AR Path="/61ECD5F2" Ref="C?"  Part="1" 
+AR Path="/61EBA3CC/61ECD5F2" Ref="C6"  Part="1" 
+AR Path="/61EE9725/61ECD5F2" Ref="C10"  Part="1" 
+F 0 "C10" H 7215 3596 50  0000 L CNN
+F 1 "100nF" H 7215 3505 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 7138 3400 50  0001 C CNN
+F 3 "~" H 7100 3550 50  0001 C CNN
+	1    7100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61ECD5EC
+P 7100 4000
+AR Path="/61ECD5EC" Ref="C?"  Part="1" 
+AR Path="/61EBA3CC/61ECD5EC" Ref="C7"  Part="1" 
+AR Path="/61EE9725/61ECD5EC" Ref="C11"  Part="1" 
+F 0 "C11" H 7215 4046 50  0000 L CNN
+F 1 "100nF" H 7215 3955 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 7138 3850 50  0001 C CNN
+F 3 "~" H 7100 4000 50  0001 C CNN
+	1    7100 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4225 6750 4275
+Wire Wire Line
+	7100 4225 7100 4150
+Wire Wire Line
+	6750 4225 7100 4225
+Connection ~ 6750 3375
+Wire Wire Line
+	6750 3300 6750 3375
+Connection ~ 6750 4225
+Wire Wire Line
+	6750 4075 6750 4225
+$Comp
+L power:-12V #PWR?
+U 1 1 61ECD5E0
+P 6750 4275
+AR Path="/61ECD5E0" Ref="#PWR?"  Part="1" 
+AR Path="/61EBA3CC/61ECD5E0" Ref="#PWR0106"  Part="1" 
+AR Path="/61EE9725/61ECD5E0" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 6750 4375 50  0001 C CNN
+F 1 "-12V" H 6765 4448 50  0000 C CNN
+F 2 "" H 6750 4275 50  0001 C CNN
+F 3 "" H 6750 4275 50  0001 C CNN
+	1    6750 4275
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 61ECD5DA
+P 6750 3300
+AR Path="/61ECD5DA" Ref="#PWR?"  Part="1" 
+AR Path="/61EBA3CC/61ECD5DA" Ref="#PWR0105"  Part="1" 
+AR Path="/61EE9725/61ECD5DA" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 6750 3150 50  0001 C CNN
+F 1 "+12V" H 6765 3473 50  0000 C CNN
+F 2 "" H 6750 3300 50  0001 C CNN
+F 3 "" H 6750 3300 50  0001 C CNN
+	1    6750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U1
+U 5 1 61EF43AE
+P 6850 3775
+F 0 "U1" H 6808 3821 50  0000 L CNN
+F 1 "TL074" H 6808 3730 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6800 3875 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6900 3975 50  0001 C CNN
+	5    6850 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3725 8300 3725
+Wire Wire Line
+	8600 3775 8600 3725
+Wire Wire Line
+	8300 3725 8300 3800
+$Comp
+L power:GND2 #PWR?
+U 1 1 61EF8023
+P 8600 3775
+AR Path="/61EF8023" Ref="#PWR?"  Part="1" 
+AR Path="/61EBA3CC/61EF8023" Ref="#PWR?"  Part="1" 
+AR Path="/61EE9725/61EF8023" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 8600 3525 50  0001 C CNN
+F 1 "GND2" H 8725 3650 50  0000 C CNN
+F 2 "" H 8600 3775 50  0001 C CNN
+F 3 "" H 8600 3775 50  0001 C CNN
+	1    8600 3775
+	1    0    0    -1  
+$EndComp
+Connection ~ 8300 3725
+Wire Wire Line
+	8300 3650 8300 3725
+Wire Wire Line
+	7950 3325 7950 3425
+Wire Wire Line
+	8300 3325 7950 3325
+Wire Wire Line
+	8300 3350 8300 3325
+$Comp
+L Device:C C?
+U 1 1 61EF802E
+P 8300 3500
+AR Path="/61EF802E" Ref="C?"  Part="1" 
+AR Path="/61EBA3CC/61EF802E" Ref="C?"  Part="1" 
+AR Path="/61EE9725/61EF802E" Ref="C12"  Part="1" 
+F 0 "C12" H 8415 3546 50  0000 L CNN
+F 1 "100nF" H 8415 3455 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 8338 3350 50  0001 C CNN
+F 3 "~" H 8300 3500 50  0001 C CNN
+	1    8300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61EF8034
+P 8300 3950
+AR Path="/61EF8034" Ref="C?"  Part="1" 
+AR Path="/61EBA3CC/61EF8034" Ref="C?"  Part="1" 
+AR Path="/61EE9725/61EF8034" Ref="C13"  Part="1" 
+F 0 "C13" H 8415 3996 50  0000 L CNN
+F 1 "100nF" H 8415 3905 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 8338 3800 50  0001 C CNN
+F 3 "~" H 8300 3950 50  0001 C CNN
+	1    8300 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4175 7950 4225
+Wire Wire Line
+	8300 4175 8300 4100
+Wire Wire Line
+	7950 4175 8300 4175
+Connection ~ 7950 3325
+Wire Wire Line
+	7950 3250 7950 3325
+Connection ~ 7950 4175
+Wire Wire Line
+	7950 4025 7950 4175
+$Comp
+L power:-12V #PWR?
+U 1 1 61EF8041
+P 7950 4225
+AR Path="/61EF8041" Ref="#PWR?"  Part="1" 
+AR Path="/61EBA3CC/61EF8041" Ref="#PWR?"  Part="1" 
+AR Path="/61EE9725/61EF8041" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 7950 4325 50  0001 C CNN
+F 1 "-12V" H 7965 4398 50  0000 C CNN
+F 2 "" H 7950 4225 50  0001 C CNN
+F 3 "" H 7950 4225 50  0001 C CNN
+	1    7950 4225
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 61EF8047
+P 7950 3250
+AR Path="/61EF8047" Ref="#PWR?"  Part="1" 
+AR Path="/61EBA3CC/61EF8047" Ref="#PWR?"  Part="1" 
+AR Path="/61EE9725/61EF8047" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 7950 3100 50  0001 C CNN
+F 1 "+12V" H 7965 3423 50  0000 C CNN
+F 2 "" H 7950 3250 50  0001 C CNN
+F 3 "" H 7950 3250 50  0001 C CNN
+	1    7950 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U2
+U 5 1 61EF804D
+P 8050 3725
+F 0 "U2" H 8008 3771 50  0000 L CNN
+F 1 "TL074" H 8008 3680 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 8000 3825 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8100 3925 50  0001 C CNN
+	5    8050 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J6
+U 1 1 61EE96E6
+P 4750 2275
+F 0 "J6" H 4475 2575 50  0000 L CNN
+F 1 "CONN_PWR1" H 4275 2500 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4750 2275 50  0001 C CNN
+F 3 "~" H 4750 2275 50  0001 C CNN
+	1    4750 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J7
+U 1 1 61EEAB32
+P 4750 2275
+F 0 "J7" H 5025 2575 50  0000 C CNN
+F 1 "CONN_PWR2" H 5025 2500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4750 2275 50  0001 C CNN
+F 3 "~" H 4750 2275 50  0001 C CNN
+	1    4750 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR?
+U 1 1 61EEE29C
+P 5175 2425
+AR Path="/61EEE29C" Ref="#PWR?"  Part="1" 
+AR Path="/61EBA3CC/61EEE29C" Ref="#PWR?"  Part="1" 
+AR Path="/61EE9725/61EEE29C" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 5175 2175 50  0001 C CNN
+F 1 "GND2" H 5300 2300 50  0000 C CNN
+F 2 "" H 5175 2425 50  0001 C CNN
+F 3 "" H 5175 2425 50  0001 C CNN
+	1    5175 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2275 5175 2275
+Wire Wire Line
+	5175 2275 5175 2425
+$Comp
+L power:-12V #PWR0107
+U 1 1 61EF1E6D
+P 5025 2425
+F 0 "#PWR0107" H 5025 2525 50  0001 C CNN
+F 1 "-12V" H 5040 2598 50  0000 C CNN
+F 2 "" H 5025 2425 50  0001 C CNN
+F 3 "" H 5025 2425 50  0001 C CNN
+	1    5025 2425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 2375 5025 2375
+Wire Wire Line
+	5025 2375 5025 2425
+$Comp
+L power:+12V #PWR0108
+U 1 1 61EF6718
+P 5325 2075
+F 0 "#PWR0108" H 5325 1925 50  0001 C CNN
+F 1 "+12V" H 5340 2248 50  0000 C CNN
+F 2 "" H 5325 2075 50  0001 C CNN
+F 3 "" H 5325 2075 50  0001 C CNN
+	1    5325 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2175 5325 2175
+Wire Wire Line
+	5325 2175 5325 2075
+$Comp
+L power:GND1 #PWR0109
+U 1 1 61EF8B01
+P 4300 2425
+F 0 "#PWR0109" H 4300 2175 50  0001 C CNN
+F 1 "GND1" H 4305 2252 50  0000 C CNN
+F 2 "" H 4300 2425 50  0001 C CNN
+F 3 "" H 4300 2425 50  0001 C CNN
+	1    4300 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2275 4300 2275
+Wire Wire Line
+	4300 2275 4300 2425
+Text GLabel 4475 2450 3    50   Input ~ 0
+NEG12V_1
+Wire Wire Line
+	4550 2375 4475 2375
+Wire Wire Line
+	4475 2375 4475 2450
+Text GLabel 4175 2125 1    50   Input ~ 0
+POS12V_1
+Wire Wire Line
+	4175 2125 4175 2175
+Wire Wire Line
+	4175 2175 4550 2175
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 61F0F7CE
+P 4300 2275
+F 0 "#FLG0101" H 4300 2350 50  0001 C CNN
+F 1 "PWR_FLAG" V 4300 2402 50  0000 L CNN
+F 2 "" H 4300 2275 50  0001 C CNN
+F 3 "~" H 4300 2275 50  0001 C CNN
+	1    4300 2275
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4300 2275
+$EndSCHEMATC
