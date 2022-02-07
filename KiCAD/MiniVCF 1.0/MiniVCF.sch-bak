@@ -47,7 +47,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 4200 4200 4200
 Connection ~ 4150 4200
-Connection ~ 3500 4200
+Connection ~ 3450 4200
 Connection ~ 4150 3875
 Wire Wire Line
 	4200 4400 4150 4400
@@ -246,9 +246,9 @@ Wire Wire Line
 Wire Wire Line
 	6050 6975 6050 7050
 Wire Wire Line
-	2750 4100 2800 4100
+	2650 4100 2750 4100
 Wire Wire Line
-	2750 3700 2750 4100
+	2650 3700 2650 4100
 Text GLabel 5550 6875 0    50   Input ~ 0
 A_AUDIO_IN
 Text GLabel 5950 6875 2    50   Input ~ 0
@@ -270,23 +270,23 @@ B_5
 Text GLabel 3000 6125 2    50   Input ~ 0
 A_CV_IN
 Wire Wire Line
-	2750 4300 2800 4300
+	2650 4300 2750 4300
 Text GLabel 7100 2350 3    50   Input ~ 0
 A_5
-Text GLabel 7300 2150 1    50   Input ~ 0
+Text GLabel 7300 2125 1    50   Input ~ 0
 A_6
 Text GLabel 7000 2550 1    50   Input ~ 0
 B_5
 Wire Wire Line
 	7000 2550 7000 2750
-Text GLabel 7400 1950 3    50   Input ~ 0
+Text GLabel 7400 1925 3    50   Input ~ 0
 B_6
 Wire Wire Line
-	7300 2150 7300 2175
+	7300 2125 7300 2175
 Wire Wire Line
 	7400 1875 7475 1875
 Wire Wire Line
-	7400 1875 7400 1950
+	7400 1875 7400 1925
 Wire Wire Line
 	7100 2275 7200 2275
 Wire Wire Line
@@ -830,12 +830,12 @@ $EndComp
 $Comp
 L Amplifier_Operational:TL074 U1
 U 3 1 61ED889E
-P 3100 4200
-F 0 "U1" H 3100 4567 50  0000 C CNN
-F 1 "TL074" H 3100 4476 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3050 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3150 4400 50  0001 C CNN
-	3    3100 4200
+P 3050 4200
+F 0 "U1" H 3050 4567 50  0000 C CNN
+F 1 "TL074" H 3050 4476 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3000 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3100 4400 50  0001 C CNN
+	3    3050 4200
 	1    0    0    1   
 $EndComp
 $Comp
@@ -981,7 +981,7 @@ Text GLabel 5950 6475 2    50   Input ~ 0
 B_CLIPPING_LEDS
 Text GLabel 5550 6575 0    50   Input ~ 0
 A_CV_IN
-Text GLabel 2750 4300 0    50   Input ~ 0
+Text GLabel 2650 4300 0    50   Input ~ 0
 B_CV_IN
 $Comp
 L Diode:1N4148 D7
@@ -1315,9 +1315,9 @@ Wire Wire Line
 Wire Wire Line
 	3950 3875 4150 3875
 Wire Wire Line
-	3400 4200 3500 4200
+	3350 4200 3450 4200
 Wire Wire Line
-	3450 3700 2750 3700
+	3450 3700 2650 3700
 Wire Wire Line
 	9400 3350 10050 3350
 Wire Wire Line
@@ -1361,11 +1361,11 @@ Wire Wire Line
 Wire Wire Line
 	4150 4200 3950 4200
 Wire Wire Line
-	3500 4200 3750 4200
+	3450 4200 3750 4200
 Wire Wire Line
 	3450 1575 3725 1575
 Wire Wire Line
-	3500 4200 3450 3700
+	3450 4200 3450 3700
 Wire Wire Line
 	1750 2000 2425 2000
 Wire Notes Line

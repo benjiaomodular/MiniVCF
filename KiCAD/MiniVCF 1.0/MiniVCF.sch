@@ -110,31 +110,25 @@ Connection ~ 7000 2750
 Wire Wire Line
 	7550 2275 7550 2350
 Wire Wire Line
-	7425 1375 7425 1675
+	7400 1375 7400 1675
 Wire Wire Line
-	7425 1675 7475 1675
+	7400 1675 7475 1675
 Wire Wire Line
 	8125 1375 8125 1775
 Connection ~ 8125 1775
 Wire Wire Line
 	8125 1775 8225 1775
-Wire Wire Line
-	7425 800  7425 1100
-Connection ~ 7425 1375
+Connection ~ 7400 1375
 Wire Wire Line
 	8125 800  8125 1100
 Connection ~ 8125 1375
-Connection ~ 7425 1100
-Wire Wire Line
-	7425 1100 7425 1375
 Connection ~ 8125 1100
 Wire Wire Line
 	8125 1100 8125 1375
 Wire Wire Line
-	7250 800  7250 925 
-Connection ~ 7425 800 
+	7125 800  7125 925 
 Wire Wire Line
-	7250 1125 7250 1225
+	7125 1125 7125 1200
 Wire Wire Line
 	7800 2450 7800 2750
 Connection ~ 7800 2750
@@ -176,12 +170,12 @@ $EndComp
 $Comp
 L power:GND2 #PWR012
 U 1 1 61F340A5
-P 7250 1225
-F 0 "#PWR012" H 7250 975 50  0001 C CNN
-F 1 "GND2" H 7255 1052 50  0000 C CNN
-F 2 "" H 7250 1225 50  0001 C CNN
-F 3 "" H 7250 1225 50  0001 C CNN
-	1    7250 1225
+P 7125 1200
+F 0 "#PWR012" H 7125 950 50  0001 C CNN
+F 1 "GND2" H 7130 1027 50  0000 C CNN
+F 2 "" H 7125 1200 50  0001 C CNN
+F 3 "" H 7125 1200 50  0001 C CNN
+	1    7125 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -273,20 +267,20 @@ Wire Wire Line
 	2650 4300 2750 4300
 Text GLabel 7100 2350 3    50   Input ~ 0
 A_5
-Text GLabel 7300 2150 1    50   Input ~ 0
+Text GLabel 7300 2125 1    50   Input ~ 0
 A_6
 Text GLabel 7000 2550 1    50   Input ~ 0
 B_5
 Wire Wire Line
 	7000 2550 7000 2750
-Text GLabel 7400 1950 3    50   Input ~ 0
+Text GLabel 7400 1925 3    50   Input ~ 0
 B_6
 Wire Wire Line
-	7300 2150 7300 2175
+	7300 2125 7300 2175
 Wire Wire Line
 	7400 1875 7475 1875
 Wire Wire Line
-	7400 1875 7400 1950
+	7400 1875 7400 1925
 Wire Wire Line
 	7100 2275 7200 2275
 Wire Wire Line
@@ -489,12 +483,12 @@ $EndComp
 $Comp
 L Device:R_Small_US R16
 U 1 1 62172144
-P 7250 1025
-F 0 "R16" H 7375 975 50  0000 C CNN
-F 1 "2.7k" H 7375 1050 50  0000 C CNN
-F 2 "benjiaomodular:Resistor_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7250 1025 50  0001 C CNN
-F 3 "~" H 7250 1025 50  0001 C CNN
-	1    7250 1025
+P 7125 1025
+F 0 "R16" H 7250 975 50  0000 C CNN
+F 1 "2.7k" H 7250 1050 50  0000 C CNN
+F 2 "benjiaomodular:Resistor_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7125 1025 50  0001 C CNN
+F 3 "~" H 7125 1025 50  0001 C CNN
+	1    7125 1025
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1295,8 +1289,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 1050 4750 1050
 Wire Wire Line
-	7425 800  7250 800 
-Wire Wire Line
 	7900 1100 8125 1100
 Wire Wire Line
 	7850 1375 8125 1375
@@ -1333,11 +1325,7 @@ Wire Wire Line
 Wire Wire Line
 	7475 2750 7800 2750
 Wire Wire Line
-	7650 1375 7425 1375
-Wire Wire Line
-	7600 1100 7425 1100
-Wire Wire Line
-	7600 800  7425 800 
+	7650 1375 7400 1375
 Wire Wire Line
 	7400 2275 7550 2275
 Wire Wire Line
@@ -1656,4 +1644,16 @@ Wire Notes Line
 	6900 4950 4925 4950
 Text Notes 4975 5875 0    50   ~ 0
 Power Indicator\n
+Wire Wire Line
+	7600 1100 7400 1100
+Wire Wire Line
+	7400 1100 7400 1375
+Wire Wire Line
+	7600 800  7400 800 
+Wire Wire Line
+	7400 800  7125 800 
+Connection ~ 7400 800 
+Connection ~ 7400 1100
+Wire Wire Line
+	7400 800  7400 1100
 $EndSCHEMATC
