@@ -1,3 +1,19 @@
 # MiniVCF
 
 This is a diode-ladder voltage controlled low pass filter based on [Moritz Klein's diode ladder tutorial series](https://www.youtube.com/watch?v=jvNNgUl3al0).
+
+## Versions
+
+### v1.1 - Quick fixes (Unverified)
+- Fixed orientation of Cutoff and Post-LPF knobs.
+- Updated toggle switch footprint to a bit more space.
+- Swapped clipping LED positions. Positive clipping now at the top row.
+
+
+### v1.0 - Initial release
+This is the first release of the module. I got it to work, but has a couple of issues.
+
+#### Issues Encountered
+- Cutoff and Post-LPF knobs are wired the opposite way.
+- Holes for the toggle switch a bit too tight.
+
