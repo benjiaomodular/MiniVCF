@@ -3991,7 +3991,7 @@
   (gr_text benjiaomodular (at 93.8 64.4) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "MiniVCF v1.0" (at 93.6 63.1) (layer F.SilkS)
+  (gr_text "MiniVCF v1.1" (at 93.6 63.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "MiniVCF v1.0" (at 109 64.8) (layer B.SilkS)
