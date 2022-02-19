@@ -8,6 +8,7 @@ This is a diode-ladder voltage controlled low pass filter based on [Moritz Klein
 - Fixed orientation of Cutoff and Post-LPF knobs.
 - Updated toggle switch footprint to a bit more space.
 - Swapped clipping LED positions. Positive clipping now at the top row.
+- Added missing labels for OpAmps, adjusted some unreadable labels.
 
 
 ### v1.0 - Initial release
