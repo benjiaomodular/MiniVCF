@@ -1,0 +1,32 @@
+Item,Qty,Reference(s),Value,LibPart
+1,2,"C1, C7",1uF,Device:CP_Small
+2,1,C2,680pF,Device:C_Small
+3,4,"C3, C4, C5, C6",1nF,Device:C_Small
+4,2,"C8, C9",100uF,Device:CP1
+5,4,"C10, C11, C12, C13",100nF,Device:C
+6,1,C14,100nF,Device:C_Small
+7,2,"CUTOFF1, RESO2",100k,Device:R_POT_Small
+8,3,"CV_AMT1, CV_AMT2, POST_LPF1",10k,Device:R_POT_Small
+9,11,"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11",1N4148,Diode:1N4148
+10,4,"D12, D13, D14, D15",LED 5mm,Device:LED
+11,1,D16,LED 3mm,Device:LED
+12,1,J1,JST-XH Socket (3 pins),Connector:Conn_01x03_Male
+13,1,J2,IDC Socket (2x5 pins),Connector:Conn_01x10_Male
+14,1,"J3, J4 J5, J10",3.5mm Jack,Connector:AudioJack2
+17,1,"J6, J11","Pin Socket (2.54 pitch, 3 pin)",Connector:Conn_01x03_Female
+18,1,"J7, J12","Pin Header (2.54 pitch, 3 pin)",Connector:Conn_01x03_Male
+19,1,J8,"Pin Header (2.54 pitch, 7 pin)",Connector:Conn_01x07_Male
+20,1,J9,"Pin Socket (2.54 pitch, 7 pin)",Connector:Conn_01x07_Female
+24,1,LP_BP_SWITCH1,SW_DPDT_x2,Switch:SW_DPDT_x2
+25,2,"R1, R20",200k,Device:R_Small_US
+26,8,"R2, R4, R5, R6, R7, R8, R9, R10",33k,Device:R_Small_US
+27,1,R3,330,Device:R_Small_US
+28,2,"R11, R12",2k,Device:R_Small_US
+29,3,"R13, R14, R22",100k,Device:R_Small_US
+30,2,"R15, R23",10k,Device:R_Small_US
+31,1,R16,2.7k,Device:R_Small_US
+32,1,R17,1k,Device:R_Small_US
+33,1,R18,10k-20k,Device:R_Small_US
+34,1,R19,47k,Device:R_Small_US
+35,1,R21,200r,Device:R_Small_US
+36,2,"U1, U2",TL074,Amplifier_Operational:TL074
